@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ef6aad98f1c17a14d8ceb29339f8e9cd
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: bb7cd3eea0c360b44a0251ba349a0eae
+  - enabled: 1
+    path: Assets/Scenes/FreeRoamLevels/SceneSelect.unity
+    guid: 9ffb3bfacabfca540b02294c1e6fdf27
+  - enabled: 1
+    path: Assets/Scenes/FreeRoamLevels/CityScene.unity
+    guid: 4a0d3458e4353e44c8000ca7f14f177b
+  - enabled: 1
+    path: Assets/Scenes/BikeSelectScene/BikeSelectScene.unity
+    guid: ef5b5e03bd1048a40b399c1d4c8a85d9
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Levels/LevelSelection.unity
+    guid: 8047e5bb48440dd4ea69f6d641bd5967
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 1.unity
+    guid: e7e0f0f57c9697f4a90626cc118de76a
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2.unity
+    guid: 1c25efdfd63f22149869ce5a899e05a9
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3.unity
+    guid: 419e658ea97a37c49a4b61e727c0dba0
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 4.unity
+    guid: 90118a22a492aa14bb3d7596b382718b
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 5.unity
+    guid: 3bd83e835d9e77e47813c9cfca7c6f71
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 92a0f36a5ee97824aa53456f37728726
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a4c68ca72a83449f938d669337cb305,
+      type: 2}

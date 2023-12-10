@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8480027312320581741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5080233675816134664}
+  - component: {fileID: 3099144418217384856}
+  - component: {fileID: -8943212110910717046}
+  - component: {fileID: 957396982344060245}
+  - component: {fileID: -2357416445977774701}
+  - component: {fileID: 4784555813295274732}
+  - component: {fileID: -4267719985120599682}
+  m_Layer: 0
+  m_Name: Quest 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5080233675816134664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480027312320581741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3099144418217384856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480027312320581741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad43c1186aced74089481edb755f61a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCustomScript: 0
+  rectangleNode:
+    serializedVersion: 2
+    x: 100
+    y: 100
+    width: 130
+    height: 100
+  questNode: {fileID: 0}
+  showDescription: 1
+  showTooltip: 0
+  showDefault: 0
+  showSettings: 0
+  showRelations: 0
+  showThresholds: 0
+  showOptionalThresholds: 0
+  prefab: {fileID: 0}
+  questIcon: {fileID: 0}
+  questName: Quest 1
+  description: Deliver Packages
+  toolTip: 
+  startAvailability: 0
+  constantAvailability: 0
+  autoComplete: 0
+  questCompleted: 0
+  repeatable: 0
+  repeatableTime: 0
+  dontDelete: 0
+  singleComplete: 0
+  startSpawningOnDiscover: 0
+  noSpawnIfNoPlayer: 0
+  timed: 0
+  matchOptionalLevels: 0
+  pickUpAble: 0
+  time: 0
+  criterias:
+  - {fileID: -8943212110910717046}
+  - {fileID: 957396982344060245}
+  rewards: []
+  thresholds: 
+  optionalThresholds: 
+  optionalCriterias: []
+  optionalRewards: []
+  completedOptionalThreshold: 0
+  unCompletedQuests: []
+  questsToUnlock: []
+  handInObjects: []
+  questGivers: []
+  playersUnCompleted: []
+  playersCompleted: []
+--- !u!114 &-8943212110910717046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480027312320581741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4af022c4ba58d249b5d8b1fafcfede5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCustomScript: 0
+  toolbarInt: 3
+  editorType: 0
+  amount: 1
+  criteriaName: Deliver Gems
+  type: 2
+  criteriaObject: {fileID: 0}
+  spawnZones: []
+  level: 0
+  rewards: []
+  giveRewardsOnCompletion: 0
+  quest: {fileID: 0}
+  timed: 0
+  dontDespawnObjectsWhenComplete: 0
+  time: 0
+--- !u!114 &957396982344060245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480027312320581741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4af022c4ba58d249b5d8b1fafcfede5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCustomScript: 0
+  toolbarInt: 3
+  editorType: 0
+  amount: 1
+  criteriaName: Deliver Gems
+  type: 2
+  criteriaObject: {fileID: 0}
+  spawnZones: []
+  level: 0
+  rewards: []
+  giveRewardsOnCompletion: 0
+  quest: {fileID: 0}
+  timed: 0
+  dontDespawnObjectsWhenComplete: 0
+  time: 0
+--- !u!114 &-2357416445977774701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480027312320581741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5e3f19dd6f1dd4bb3a69c896c2d155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 3
+  sphere: {fileID: 0}
+  quests: []
+  handInByCollision: 1
+--- !u!114 &4784555813295274732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480027312320581741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c74c207a09ff24caf739f5ee542b8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quests: []
+  radius: 3
+  declineDistance: 5
+  walkIntoStartQuest: 1
+  questSymbol: {fileID: 0}
+--- !u!114 &-4267719985120599682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8480027312320581741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57462535cae5b7b4aa8bfe964e3407ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleSpawn: 0
+  spawnName: SpawnZone
+  spawnRateTimer: 0
+  spawn: 0
+  spawnAreaObject: {fileID: 0}
+  spawnRadius: 0
+  spawnAmount: 0
+  spawnRate: 0
+  initialSpawnAmount: 0
+  maxSpawnAmount: 0
+  criteria: {fileID: 0}
+  spawnedObjects: []

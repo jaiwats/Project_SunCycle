@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 47, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHAPREMULTIPLY_ON
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS
+        passType: 8
+      - keywords: _ALPHAPREMULTIPLY_ON
+        passType: 8
+  - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_SPLIT_SPHERES
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: e246c0a8455b24558abf0011605eb460,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _ADDITIONAL_LIGHTS _EMISSION
+          _MAIN_LIGHT_SHADOWS _METALLICSPECGLOSSMAP _NORMALMAP
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHAPREMULTIPLY_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS _NORMALMAP
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+          _NORMALMAP
+        passType: 13
+  - first: {fileID: 4800000, guid: 0e9d5a909a1f7e84882a534d0d11e49f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _NORMALMAP
+        passType: 8
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _NORMALMAP
+        passType: 8
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+          _NORMALMAP
+        passType: 13
+  - first: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 99134b1f0c27d54469a840832a28fadf, type: 3}
+    second:
+      variants:
+      - keywords: _WINDQUALITY_FASTEST
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE _WINDQUALITY_FASTEST
+        passType: 8
+      - keywords: BACKFACENORMALMODE_MIRROR EFFECT_BUMP EFFECT_HUE_VARIATION _WINDQUALITY_FASTEST
+        passType: 8
+      - keywords: BACKFACENORMALMODE_MIRROR BILLBOARD_FACE_CAMERA_POS EFFECT_BUMP
+          EFFECT_HUE_VARIATION LIGHTPROBE_SH _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+          _WINDQUALITY_FASTEST
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 0466ba789503ec446bf728662fb8a009,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: BILLBOARD_FACE_CAMERA_POS LIGHTPROBE_SH _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 99260826d72a8d543981d52b92aa0b53,
+      type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 0
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 0
+  - first: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 0
+  - first: {fileID: 4800000, guid: d883e31ac4c172d429e7953bd1585527, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 0d253da60186cc04a9ca9cdc983c4463, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
